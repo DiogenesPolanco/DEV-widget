@@ -18,9 +18,7 @@ export const css = // css
     height:120px;
     overflow:hidden;
 }
-@media (max-width:768px){
-    .header{background-color:#111;}
-}
+
 .content{
     background-color:#fff;
     max-height:300px;
@@ -103,5 +101,10 @@ export const css = // css
 .article-icon > span{
     color:#999;
     font-size:7pt;
+}
+
+@media (max-width:768px){
+    .header{background-color:#111;}
+    .article-card:hover{background-color:#fff;}
 }
 `

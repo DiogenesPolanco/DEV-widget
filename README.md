@@ -52,7 +52,7 @@ import 'dev-widget'
 
 **Note:** Value of `data-limit` should not be too high. An API request has to be made for every 30 articles so for `data-limit=200` 7 API requests will be made synchronously.
 
-So a full example would look something like 
+So a full example would look something like
 ```html
 <dev-widget data-username="saurabhdaware" data-width="320px" data-limit="3" data-name="Saurabh 😎"></dev-widget>
 
